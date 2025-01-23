@@ -417,3 +417,126 @@
   cursor: pointer;
   transition: background-color 250ms linear;
  }
+
+
+ /* service section */
+ .services {
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.services-subtitle {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -30px);
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.services-title {
+  margin-bottom: 50px;
+
+  font-size: 48px;
+  line-height: 1.1;
+  text-align: center;
+  color: var(--color-alpha);
+}
+
+.services-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.services-item {
+  width: 265px;
+  padding: 45px 35px 25px;
+
+  border: 1px solid var(--border-color-alpha);
+  border-radius: 20px;
+}
+
+.services-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.services-item:nth-child(2n) {
+  margin-top: 40px;
+}
+
+.services-item:focus-within {
+  border-color: var(--accent-color);
+}
+
+.services-icon-wrap {
+  position: relative;
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+
+  background-color: var(--bg-color-psi);
+  border-radius: 20px;
+}
+
+.services-icon-wrap::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  content: '';
+
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+
+  background-color: rgba(255, 110, 107, 0.5);
+  border-radius: 20px;
+
+  transform: rotate(15deg);
+}
+
+.services-icon {
+  fill: var(--color-gamma);
+  z-index: 1;
+}
+
+.services-name {
+  margin-bottom: 10px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.8;
+  letter-spacing: -0.02em;
+
+  color: var(--color-psi);
+}
+
+.services-desc {
+  margin-bottom: 30px;
+}
+
+.services-link {
+  display: block;
+  max-width: 150px;
+  padding: 14px;
+  margin: auto;
+
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--color-omega);
+
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  transition: background-color 250ms linear;
+}
