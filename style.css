@@ -293,4 +293,127 @@
     line-height: 1.4;
   }
 
-  
+  /* Menu Section  */
+  .bestsellers{
+    padding-bottom: 15px;
+  }
+
+  .bestsellers-subtitle{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--accent-color);
+  }
+
+  .bestsellers-title{
+    margin-bottom: 35px;
+    font-size: 48px;
+    line-height: 1.1;
+    text-align: center;
+    color: var(--color-alpha);
+  }
+
+  .bestsellers-list{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .bestsellers-item{
+    width: calc((100% - 70px) /3);
+    flex-shrink: unset;
+    background-color: var(--color-gamma);
+    border: 1px solid var(--border-color-beta);
+  }
+
+  .bestsellers-item:not(:last-child){
+    margin-right: 35px;
+  }
+
+ .bestsellers-item:nth-child(2){
+  margin-top: 120px;
+ }
+
+ .bestsellers-item:nth-child(1){
+  margin-top: 205px;
+ }
+
+ .bestsellers-item:focus-within{
+  border-color: var(--accent-color);
+ }
+
+ .bestsellers-about{
+  padding: 35px 24px;
+ }
+
+ .bestsellers-text{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 1.4;
+ }
+
+ .bestsellers-food{
+  display: flex;
+  align-items: center;
+ }
+
+ .bestsellers-food::before{
+  content: '';
+  display: inline-block;
+  height: 34px;
+  width: 34px;
+  margin-right: 12px;
+  background-color: var(--bg-color-gamma);
+  border-radius: 50%;
+  background-image: url(img/ice-cream.png);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: center;
+ }
+
+ .bestsellers-price{
+  display: flex;
+  align-items: center;
+  color: var(--color-delta);
+ }
+
+ .bestsellers-price::before{
+  content: '';
+  display: inline-block;
+  height: 34px;
+  width: 34px;
+  margin-right: 12px;
+  background-color: var(--bg-color-gamma);
+  border-radius: 50%;
+  background-image: url(img/money.png);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: center;
+ }
+
+ .bestsellers-order{
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 1.12;
+  color: var(--color-delta);
+ }
+
+ .bestsellers-desc{
+  margin-bottom: 10px;
+ }
+
+ .bestsellers-button{
+  display: block;
+  width: 100%;
+  padding: 14px;
+  line-height: 1.75;
+  color: var(--color-gamma);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 250ms linear;
+ }
