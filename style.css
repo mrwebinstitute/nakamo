@@ -598,3 +598,105 @@
   border-radius: 8px;
   transition: background-color 250ms linear;
 }
+
+  /* testimonial section  */
+
+  .testimonial {
+    background-image: linear-gradient(180deg, #ffeded 0%, rgba(255, 238, 237, 0.5) 100%);
+  }
+  
+  .testimonial-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .testimonial-text {
+    width: 400px;
+    margin-right: 80px;
+    flex-shrink: 20;
+  }
+  
+  .testimonial-subtitle {
+    margin-bottom: 13px;
+  
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: var(--accent-color);
+  }
+  
+  .testimonial-title {
+    margin-bottom: 25px;
+  
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+    color: var(--color-jota);
+  }
+  
+  .testimonial-desc {
+    margin-bottom: 110px;
+  }
+  
+  .testimonial-nav {
+    display: flex;
+  }
+  
+  .testimonial-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .testimonial-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    padding: 0;
+  
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+  }
+  
+  .testimonial-button.current {
+    background-color: var(--bg-color-beta);
+    transform: rotate(180deg);
+  }
+  
+  .testimonial-icon {
+    fill: var(--color-gamma);
+  }
+  
+  .testimonial-list {
+    display: flex;
+    width: calc(100% - 480px);
+  }
+  
+  .testimonial-card {
+    position: relative;
+    width: calc((100% - 60px) / 3);
+    padding: 130px 24px 24px 24px;
+  
+    background-color: var(--color-gamma);
+    border-radius: 8px;
+  }
+  
+  .testimonial-card:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .testimonial-img {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    width: 148px;
+    height: 148px;
+    border-radius: 8px;
+    transform: translate(-50%);
+  }
