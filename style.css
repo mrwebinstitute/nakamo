@@ -540,3 +540,61 @@
   border-radius: 8px;
   transition: background-color 250ms linear;
 }
+
+/* about us  */
+
+.about-us{
+  padding-bottom: 150px;
+}
+
+.about-us-wrap{
+  position: relative;
+}
+
+.about-us-img{
+  position: absolute;
+  top: -80%;
+  left: -10%;
+  z-index: -1;
+}
+
+.about-us-box{
+  padding-left: 57%;
+}
+
+.about-us-subtitle{
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: var(--accent-color);
+}
+
+.about-us-title{
+  margin-bottom: 10px;
+  font-size: 48px;
+  line-height: 1.1;
+  color: var(--color-alpha);
+}
+
+.about-us-desc{
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.78;
+  color: var(--color-beta);
+
+}
+
+.about-us-link{
+  display: inline-block;
+  padding: 14px;
+  min-width: 200px;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-omega);
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  transition: background-color 250ms linear;
+}
