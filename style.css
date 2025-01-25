@@ -700,3 +700,70 @@
     border-radius: 8px;
     transform: translate(-50%);
   }
+
+  /* subscribe section */
+
+  .subscribe {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .subscribe-title {
+    margin-bottom: 10px;
+  
+    font-size: 20px;
+    line-height: 1.1;
+    color: var(--color-delta);
+  }
+  
+  .subscribe-desc {
+    color: var(--color-jota);
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .subscribe-form-wrap {
+    width: 695px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 26px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    }
+  
+  .subscribe-form-wrap:focus-within {
+    border: 1px solid var(--accent-color);
+  }
+  
+  .subscribe-input {
+    height: 28px;
+  
+    border: none;
+    flex-grow: 1;
+  }
+  
+  .subscribe-input::placeholder {
+    line-height: 1.75;
+    letter-spacing: 0.3px;
+    color: var(--color-ny);
+  }
+  
+  .subscribe-btn {
+    width: 164px;
+    height: 48px;
+    margin-left: 10px;
+    letter-spacing: 0.3px;
+    color: var(--bg-color-alpha);
+    border: none;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+  }
